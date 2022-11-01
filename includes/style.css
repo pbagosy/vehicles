@@ -1,0 +1,68 @@
+body { font-family:Arial, sans-serif; font-size: 1.3em }
+
+input[type=text] { width:80%; padding:5px; font-size:2.2em }
+textarea { width:80%; padding:5px; font-size:2.2em; font-family:Arial, sans-serif; }
+
+tr.r0, tr.r0 td { background-color:#FFF }
+tr.r1, tr.r1 td { background-color:#ECECEC }
+.label { font-size:1.8em; text-align:right; width:30%; padding-right:10px }
+.right { text-align:right }
+.nowrap { white-space:nowrap }
+
+td { padding:2px 3px; }
+
+h1 {
+    font-size: 2.0em;
+    margin: 0;
+    padding: 2px;
+}
+
+button {
+    width:100%;
+    font-size:2.2em;
+    padding:20px;
+    margin:0 5px 5px 0;
+    border:solid black 1px;
+    border-radius:8px;
+}
+
+table {
+    width:100%; margin-bottom:5px; font-size:1.3em;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:8px;
+}
+
+table.vehicle_log td, table.vehicle_log.th {
+    border: 0;
+}
+table.vehicle_log tr.header {
+    background-color: #fff;
+}
+
+table.fuel_log td, table.fuel_log th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    padding:3px
+}
+tr.header {
+    border: 0;
+    text-align: center;
+    font-weight:bold;
+    font-size: 1.8em;
+}
+
+td.hline {
+    font-weight:bold; text-align:right;
+}
+
+th {
+    border-top: none;
+    font-weight:bold;
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+p { margin: 0 0 10px 0; }
